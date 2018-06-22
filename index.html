@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+</head>
+<body>
+  
+  <main class="calculator">
+    <div class="calculator__top"></div>
+    <div class="calculator__center">
+      <div class="calculator__sum">
+        <span class="sum"></span>
+      </div>
+      <div class="calculator__result">
+        <span class="result">0</span>
+      </div>
+    </div>
+    <div class="calculator__bottom">
+      <div class="row">
+        <button class="button clear">C</button>
+        <button class="button value" value="(">(</button>
+        <button class="button value" value=")">)</button>
+        <button class="button function" value="/">&divide;</button>
+      </div>
+      <div class="row">
+        <button class="button value" value="7">7</button>
+        <button class="button value" value="8">8</button>
+        <button class="button value" value="9">9</button>
+        <button class="button function" value="*">&times;</button>
+      </div>
+      <div class="row">
+        <button class="button value" value="4">4</button>
+        <button class="button value" value="5">5</button>
+        <button class="button value" value="6">6</button>
+        <button class="button function" value="-">&minus;</button>
+      </div>
+      <div class="row">
+        <button class="button value" value="1">1</button>
+        <button class="button value" value="2">2</button>
+        <button class="button value" value="3">3</button>
+        <button class="button function" value="+">&plus;</button>
+      </div>
+      <div class="row">
+        <button class="button button--large value" value="0">0</button>
+        <button class="button decimal" value=".">.</button>
+        <button class="button equals">&equals;</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
